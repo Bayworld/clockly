@@ -73,3 +73,72 @@ body{
     font-family: orbitron;
     border-radius: 4px;
 }
+
+@media screen and (max-width: 700px){
+    
+.main {
+    background-color: #ccc;
+    width: 300px;
+    margin: 80px auto;
+    height: 170px;
+    position: relative;
+    padding: 25px;
+}
+
+.badge{
+    width: 90px;
+    background-color: #e66357;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: -15px;
+    left: 35%;
+
+}
+
+.clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 45px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: orbitron;
+    border-radius: 4px;
+    
+}
+
+
+.major{
+    background-color: #ebebeb;
+    width: 300px;
+    margin: 90px auto;
+    height: 170px;
+    position: relative;
+    padding: 30px;
+}
+
+.budge{
+    width: 140px;
+    background-color: #e66357;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: -15px;
+    left: 30%;
+}
+
+.date{
+    background: #ccc;
+    text-align: center;
+    font-size: 35px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: orbitron;
+    border-radius: 4px;
+}
+
+}
